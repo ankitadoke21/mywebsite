@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Burger Bliss</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">🍔 Burger Bliss</h1>
+      <nav class="nav">
+        <a href="#menu">Menu</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h2>Fresh, Juicy, Delicious Burgers</h2>
+      <p>Made with love and served hot. Order your favorite burger today!</p>
+      <a href="#order" class="button">Order Now</a>
+    </div>
+    <img src="assets/hero-burger.jpg" alt="Delicious burger" />
+  </section>
+
+  <!-- Menu -->
+ <section id="menu" class="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="assets/classic-burger.jpg" alt="Classic Burger" />
+          <h3>Classic Burger</h3>
+          <p>₹149</p>
+        </div>
+        <div class="card">
+          <img src="assets/cheese-burger.jpg" alt="Cheese Burger" />
+          <h3>Cheese Burger</h3>
+          <p>₹179</p>
+        </div>
+        <div class="card">
+          <img src="assets/spicy-burger.jpg" alt="Spicy Burger" />
+          <h3>Spicy Burger</h3>
+          <p>₹199</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order -->
+  <section id="order" class="order">
+    <div class="container">
+      <h2>Place Your Order</h2>
+      <form>
+        <label>Name <input type="text" required></label>
+        <label>Phone <input type="tel" required></label>
+         <label>Burger
+          <select required>
+            <option value="">Select</option>
+            <option>Classic Burger</option>
+            <option>Cheese Burger</option>
+            <option>Spicy Burger</option>
+          </select>
+        </label>
+        <label>Quantity <input type="number" min="1" value="1"></label>
+        <button type="submit" class="button">Submit Order</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>📞 +91-90000-00000</p>
+      <p>📍 Burger Bliss, Pune</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2026 Burger Bliss. All rights reserved.</p>
+  </footer>
+</body>
+</html>
